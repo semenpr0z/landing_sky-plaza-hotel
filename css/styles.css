@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    background: #FFFFFF;
+}
+
+.container{
+    padding: 0 35px;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .navigation{
+        display: flex;
+        min-width: 543px;
+    }
+        .navigation-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+            .navigation-list-item{
+
+            }
+                .navigation-list-item-text{
+                    color: #5A5A5A;
+                }
+    .header-number{
+
+    }
+main{
+
+}
+    .booking{
+        background-image: url(../img/booking-image.png);
+        height: 530px;
+    }
