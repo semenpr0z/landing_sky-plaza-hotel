@@ -19,6 +19,9 @@
     background: #2F80ED;
     border-radius: 9px;
 }
+    .button:hover{
+        cursor: pointer;
+    }
 
 .header{
     height: 53px;
@@ -42,6 +45,9 @@
                 .navigation-list-item-text{
                     color: #5A5A5A;
                 }
+                    .navigation-list-item-text:hover{
+                        color: #2F80ED;
+                    }
     .header-number{
 
     }
