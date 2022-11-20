@@ -23,6 +23,21 @@
         cursor: pointer;
     }
 
+.h2-title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 48px;
+    color: #434343;
+}
+.p-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #757575;
+}
+
+
+
 .header{
     height: 53px;
     display: flex;
@@ -91,3 +106,68 @@ main{
             letter-spacing: 0.02em;
             color: #FFFFFF;
         }
+    .About{
+        margin-top: 109px;
+        display: flex;
+        justify-content: space-between;
+    }
+        .left-side-about{
+            width: 854px;
+            height: 722px;
+        }
+            .about-title{
+                padding-top: 43px;
+                padding-left: 45px;
+            }
+            .about-text{
+                margin-top: 25px;
+                padding-left: 45px;
+                height: 230px;
+            }
+            .img-swimming-pool{
+                margin-top: 64px;
+            }
+        .right-side-about{
+            text-align: right;
+            height: 722px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+            .img-cafe{
+                
+            }
+    .about-v2{
+        padding-right: 39px;
+    }
+        .about-text-v2{
+            margin-top: 25px;
+            padding-left: 45px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            color: #757575;
+        }
+    .number-of-rooms-section{
+        margin-top: 125px;
+    }
+        .catalog-of-rooms{
+            display: flex;
+            justify-content: space-between;
+
+        }
+            .item-room{
+
+            }
+                .description-item{
+
+                }
+                .price-of-room{
+                    display: flex;
+                }
+                    .price-of-room-value{
+
+                    }
+                    .price-of-room-length{
+
+                    }
