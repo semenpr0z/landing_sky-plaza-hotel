@@ -194,3 +194,69 @@ main{
                         height: 19px;
                         padding-bottom: 4px;
                     }
+    .responsibility{
+
+    }
+        .responsibility-title{
+            margin-top: 81px;
+            margin-bottom: 50px;
+        }
+        .responsibility-items{
+
+        }
+            .responsibility-items-slot{
+                display: flex;
+                justify-content: space-between;
+            }
+            .slot2{
+                margin-top: 19px;
+            }
+                .responsibility-items-slot-item{
+                    display: flex;
+                    width: 389px;
+                    height: 130px;
+                    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.12);
+                    border-radius: 15px;
+                }
+                    .img-responsibility{
+                        width: 78px;
+                        height: 78px;
+                        padding: 25px 26px 27px 25px;
+                    }
+                    .text-responsibility{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        font-weight: 500;
+                        font-size: 23px;
+                        line-height: 28px;
+                        color: #434343;
+                    }
+        .Yalta{
+            
+        }
+            .yalta-title{
+                margin-top: 83px;
+                margin-bottom: 38px;
+            }
+            .photos-yalta{
+                display: flex;
+                justify-content: space-between;
+            }
+            .photos-yalta-second{
+                margin-top: 23px;
+                margin-bottom: 35px;
+            }
+            .inner{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+                .more-photos{
+                    width: 390px;
+                    height: 75px;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                }
