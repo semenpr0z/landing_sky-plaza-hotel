@@ -89,6 +89,7 @@ main{
                 font-size: 59px;
                 line-height: 65px;
                 color: #FFFFFF;
+                padding-bottom: 11px;
             }
             .adress-span{
                 font-weight: 400;
@@ -260,3 +261,55 @@ main{
                     line-height: 29px;
                     color: #FFFFFF;
                 }
+        .video-section{
+
+        }
+            .video-title{
+                margin-top: 104px;
+                margin-bottom: 46px;
+            }
+            .video{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                z-index: 1;
+                justify-content: center;
+            }
+                .video-img{
+                    width: 100%;
+                    height: auto;
+                }
+                .button-play{
+                    position: absolute;
+                    z-index: 2;
+                    left: calc(50% - 139px/2);
+                    width: 139px;
+                    height: 139px;
+                }
+                    .inner-play{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        justify-content: center;
+                        align-items: center;
+                        width: 139px;
+                        height: 139px;
+                    }
+                        .blur-play{
+                            position: absolute;
+                            width: 139px;
+                            height: 139px;
+                            border-radius: 50%;
+                            background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+                            backdrop-filter: blur(5.68306px);
+                        }
+                        .ellipse-play{
+                            position: absolute;
+                            width: 139px;
+                            height: 139px;
+                        }
+                        .play-play{
+                            position: absolute;
+                            width: 32px;
+                            height: 32px;
+                        }
