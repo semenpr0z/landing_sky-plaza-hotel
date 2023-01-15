@@ -346,9 +346,88 @@ main{
                     box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
                     border-radius: 20px;
                 }
-                    .search-system{
-                        background-color: #E0E0E0;
-                        border-radius: 53px;
-                        width: 111px;
-                        height: 44px;
+                    .inner-review-item{
+                        margin-top: 28px;
+                        margin-left: 29px;
                     }
+                        .search-system{
+                            background-color: #E0E0E0;
+                            border-radius: 53px;
+                            width: 111px;
+                            height: 44px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                        }
+                            .serch-system-icon{
+                                width: 28px;
+                                height: 28px;
+                            }
+                            .serch-system-ball{
+                                font-weight: 500;
+                                font-size: 21px;
+                                line-height: 26px;
+                                letter-spacing: 0.22em;
+                                color: #757575;
+                            }
+                        .inner-review-text{
+                            margin-top: 23px;
+                        }
+                            .review-text{
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 23px;
+                                color: #757575;
+                            }
+                            .open-all{
+                                font-weight: 500;
+                                font-size: 19px;
+                                line-height: 24px;
+                                letter-spacing: 0.02em;
+                                color: #2F80ED;
+                                margin: 12px 0px 40px;
+                                cursor: pointer;
+                            }
+                            .inner-spans-and-img{
+                                display: flex;
+                            }
+                                .img-review{
+                                    width: 58px;
+                                    height: 58px;
+                                    margin-right: 18px;
+                                }
+                                .inner-spans{
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin-top: 30px;
+                                }
+                                .no-margin{
+                                    margin: 0;
+                                }
+                                    .span-name{
+                                        font-size: 24px;
+                                        line-height: 31px;
+                                        letter-spacing: 0.02em;
+                                        color: #757575;
+                                    }
+                                    .span-date{
+                                        font-weight: 400;
+                                        font-size: 18px;
+                                        line-height: 23px;
+                                        letter-spacing: 0.02em;
+                                        color: #757575;
+                                        margin-top: 4px;
+                                    }
+            .inner-button{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 38px;
+            }
+                .more-reviews{
+                    padding: 23px 64px;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                }
