@@ -37,7 +37,6 @@
 }
 
 
-
 .header{
     height: 53px;
     display: flex;
@@ -313,3 +312,43 @@ main{
                             width: 32px;
                             height: 32px;
                         }
+        .how-relax-section{
+            margin-top: 122px;
+            box-shadow: 0px 12.4444px 80px rgba(0, 0, 0, 0.05);
+            border-radius: 16px;
+            background-color: #FFFFFF;
+        }
+            .inner-how-relax{
+                display: flex;
+                justify-content: space-between;
+            }
+                .text-how-relax{
+                    margin-top: 43px;
+                    margin-left: 44px;
+                }
+                    .how-to-relax-text{
+                        margin-top: 24px;
+                    }
+        .reviews-section{
+            margin-top: 80px;
+        }
+            .reviews-title{
+
+            }
+            .catalogs-of-reviews{
+                margin-top: 39px;
+                display: flex;
+                justify-content: space-between;
+            }
+                .review-item{
+                    width: 389px;
+                    height: 378px;
+                    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+                    border-radius: 20px;
+                }
+                    .search-system{
+                        background-color: #E0E0E0;
+                        border-radius: 53px;
+                        width: 111px;
+                        height: 44px;
+                    }
