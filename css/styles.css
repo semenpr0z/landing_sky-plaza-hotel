@@ -440,6 +440,9 @@ main{
                 background-image: url("../img/map.png");
                 filter: drop-shadow(0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07));
                 border-radius: 18px;
+                display: flex;
+                justify-content: end;
+                align-items: flex-end;
             }
                 .adress-on-map{
                     background-color: #FFFFFF;
@@ -447,21 +450,74 @@ main{
                     width: 470px;
                     height: 189px;
                     box-shadow: -13.3333px -14.2222px 53.3333px rgba(0, 0, 0, 0.08);
-                    margin-left: 739px;
-                    position: absolute;
-                    bottom: 0;
-                    border: transparent;
+                    display: flex;
+                    flex-direction: column;
                 }
                     .adress-on-map__span{
                         font-weight: 500;
                         font-size: 37px;
                         line-height: 41px;
                         color: #535353;
-                        margin: 44px 225px 104px 45px;
+                        margin: 44px 0 0 45px;
                     }
                     .adress-on-map__p{
+                        font-style: normal;
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 23px;
                         color: #757575;
+                        margin: 13px 0 0 45px;
                     }
+        .contacts-section{
+            display: flex;
+            margin-top: 75px;
+        }
+            .contact-us{
+                color: #5B5B5B;
+            }
+            .contacts{
+                display: flex;
+                justify-content: space-between;
+                width: 783px;
+                margin-left: 38px;
+            }
+                .contacts__item{
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                }
+                    .contacts__item_ellipse{
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .dark-blue{
+                            background-color: #2F80ED;
+                        }
+                        .gray{
+                            background-color: #D9D9D9;
+                        }
+                        .green{
+                            background: linear-gradient(161.77deg, #58D063 12.39%, #28B43E 95.77%);;
+                        }
+                        .blue{
+                            background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.21%), linear-gradient(161.77deg, #58D063 12.39%, #28B43E 95.77%);
+                        }
+                            .image-telegram-padding{
+                                padding: 17px 16px 15px 13px;
+                            }
+                    .contacts__item_span{
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 17px;
+                        color: #6D6D6D;
+                        padding: 0 35px 0 18px;
+                    }
+.footer{
+    background: #FFFFFF;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
