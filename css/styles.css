@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 * {
     margin: 0;
@@ -485,6 +486,7 @@ main{
                     list-style: none;
                     display: flex;
                     align-items: center;
+                    cursor: pointer;
                 }
                     .contacts__item_ellipse{
                         width: 48px;
@@ -519,5 +521,60 @@ main{
 .footer{
     background: #FFFFFF;
     box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 55px;
+    padding: 0 30px 59px;
 }
+.container-footer{
+
+}
+    .container-footer__content{
+        width: 1150px;
+    }
+    .logo-and-contacts{
+        
+        height: 156px;
+        border-bottom: 2px solid #CACACA;
+        display: flex;
+        justify-content: space-between;
+    }
+        .logo-and-contacts__logo{
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            font-family: 'Fuzzy Bubbles';
+            margin-top: 46px;
+            color: #2F80ED;
+        }
+            .logo-and-contacts__logo_green{
+                color: #43C453;
+            }
+        .logo-and-contacts__contacts a{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            color: #2F80ED;
+            margin-top: 85px;
+            display: flex;
+        }
+    .nav-and-politicy{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+        .navigation-footer{
+
+        }
+            .navigation-list-footer{
+                width: 524px;
+                justify-content: space-between;
+            }
+                .navigation-list-item-text-footer{
+                    color: #808080;
+                }
+        .nav-and-politicy__poloticy{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #808080;
+        }
